@@ -1,0 +1,69 @@
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol { list-style: none; }
+/* 设置默认字体 */
+body,
+button, input, select, textarea { /* for ie */
+    /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+    font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+}
+img{width: 80px;height: 80px;}
+
+
+
+
+#box{
+	width: 90%;
+	background-color: #eee;
+	padding: 20px;
+	margin:0 auto;
+	margin-top: 20px;
+	border:1px solid #999;
+	position: relative;
+	min-height: 500px;
+	min-width: 800px;
+	overflow: hidden;
+}
+
+
+#leftBox{
+	max-width: 200px;
+	padding: 20px;
+	background-color: #fff;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	border:1px solid #999;
+}
+#leftBox h3{float: right;margin-top: 30px;}
+
+
+#centerBox{
+	max-width: 70%;
+	margin:0 150px 0 220px;
+	border:1px solid #999;
+	padding: 20px;
+	background-color: #fff;
+}
+
+
+#rightBox{
+	width: 100px;
+	position: absolute;
+	top:20px;
+	right: 20px;
+	background-color:#fff;
+	border:1px solid #999;
+}
+#rightBox ul li{
+	margin-bottom: 15px;
+	text-align: center;
+}
